@@ -63,6 +63,20 @@ function Booking({ selectedServices }) {
             }}
           />
         </div>
+
+        {/* WHATSAPP CONTACT BLOCK */}
+        <motion.a
+          href="https://wa.me/+971554120771"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.whatsappBox}
+          variants={fadeInUp}
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.97 }}
+        >
+          <i className="ri-whatsapp-line"></i>
+          <span>Contact me on WhatsApp</span>
+        </motion.a>
       </motion.div>
     </motion.section>
   );

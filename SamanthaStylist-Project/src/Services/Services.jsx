@@ -31,33 +31,51 @@ function Services({ onSelectService }) {
         { name: "Wash and Cut", price: 150 },
         { name: "Wash Cut & Style", price: 250 },
         { name: "Bangs Cut", price: 45 },
+        { name: "Hair Trimming", price: 100 },
       ],
     },
+
     {
       title: "Hair Treatments",
       icon: "/Icons/treatment.png",
       items: [
-        { name: "Keratin", price: 150 },
-        { name: "Botox", price: 250 },
-        { name: "Protein", price: 150 },
+        { name: "Keratin Protein Treatment", price: "800-1500" },
+        { name: "Hair Botox Treatment", price: "800-1500" },
+        { name: "Organic Protein Treatment", price: "800-1800" },
+        { name: "Hair Toning", price: "120-200" },
+        { name: "Olaplex", price: "150-250" },
       ],
     },
+
     {
-      title: "Hair Dye",
+      title: "Hair Dye & Highlights",
       icon: "/Icons/dye.png",
       items: [
-        { name: "Full Dye", price: 150 },
-        { name: "Highlights", price: 250 },
-        { name: "Ombre", price: 150 },
+        { name: "Full Dye", price: "350-600" },
+        { name: "Highlights", price: "400-700" },
+        { name: "Ombre / Balayage", price: "400-700" },
       ],
     },
+
     {
       title: "Makeup Services",
       icon: "/Icons/makeup.png",
       items: [
         { name: "Bridal", price: 2500 },
+        { name: "Evening", price: 400 },
         { name: "Party", price: 600 },
         { name: "Prom", price: 400 },
+      ],
+    },
+
+    {
+      title: "Eyebrows & Upper-lips",
+      icon: "/Icons/eyebrow.png",
+      items: [
+        { name: "Upper Lips Threading", price: 20 },
+        { name: "Eyebrows Threading", price: 35 },
+        { name: "Eyebrows Tint", price: 50 },
+        { name: "Eyebrows & Lashes Tint", price: 75 },
       ],
     },
   ];
