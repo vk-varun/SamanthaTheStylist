@@ -39,9 +39,10 @@ function Services({ onSelectService }) {
       title: "Hair Treatments",
       icon: "/Icons/treatment.png",
       items: [
-        { name: "Keratin Protein Treatment", price: "800-1500" },
-        { name: "Hair Botox Treatment", price: "800-1500" },
-        { name: "Organic Protein Treatment", price: "800-1800" },
+        { name: "Keratin", price: "800-1500" },
+        { name: "Hair Botox", price: "800-1500" },
+        { name: "Protein", price: "800-1500" },
+        { name: "Collagen", price: "800-1500" },
         { name: "Hair Toning", price: "120-200" },
         { name: "Olaplex", price: "150-250" },
       ],
@@ -70,7 +71,7 @@ function Services({ onSelectService }) {
 
     {
       title: "Eyebrows & Upper-lips",
-      icon: "/Icons/eyebrow.png",
+      icon: "/Icons/eyebrows.png",
       items: [
         { name: "Upper Lips Threading", price: 20 },
         { name: "Eyebrows Threading", price: 35 },
